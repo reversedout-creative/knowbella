@@ -1,5 +1,5 @@
 (function($) {
-	
+
 	/* Go up */
 	jQuery(window).scroll(function () {
 		if(jQuery(this).scrollTop() > 300 ) {
@@ -13,7 +13,7 @@
 		jQuery("html,body").animate({scrollTop:0},500);
 		return false;
 	 });
- 
+
 
 	/* Slime Menu */
 	$('.slimmenu').slimmenu({
@@ -29,11 +29,11 @@
 			$('.collapse-button').toggleClass('close-menu');
 		});
 	});
-		
-	  
-	
-	
-	
+
+
+
+
+
 	/* --------------------------------------------------
 	 * document ready
 	 * --------------------------------------------------*/
@@ -48,7 +48,7 @@
 			/* go to anchor */
 		});
 	});
-	
+
 	/* WOW */
 	wow = new WOW(
       {
@@ -61,8 +61,8 @@
     );
     wow.init();
 	/* END WOW */
-	
-	
+
+
 	/* Search Box Filters JS*/
 	$(document).ready(function(){
 		$("#fliter_menu").click(function(){
@@ -70,5 +70,10 @@
 			$("#fliter_menu").toggleClass("close-menu");
 		});
 	});
-	
+
 })(jQuery);
+
+function onSubmit(token) {
+	document.getElementById("demo-form").submit();
+	alert("success");
+}
