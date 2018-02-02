@@ -378,15 +378,15 @@ Knowbella Tech equity.</h3>
 			<form id="contact-form" name="contactForm" method="post">
         <div class="row">
           <div class="form-group wow fadeInUp col" data-wow-duration="1s" data-wow-delay=".5s">
-  					<input placeholder="First Name (required)" type="text" name="first" value="first_Name" required>
+  					<input placeholder="First Name (required)" type="text" name="first"required>
           </div>
           <div class="form-group wow fadeInUp col" data-wow-duration="1s" data-wow-delay=".5s">
-  				    <input placeholder="Last Name (required)" type="text" name="last" value="last_Name" required>
+  				    <input placeholder="Last Name (required)" type="text" name="last"required>
   				</div>
         </div>
 
 				<div class="form-group wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
-					<input placeholder="email@example.com (required)" type="email" name="email" value="user_email"required>
+					<input placeholder="email@example.com (required)" type="email" name="email" required>
         </div>
         <div class="form-group wow fadeInUp" data-wow-duration="1s" data-wow-delay=".7s">
             <textarea placeholder="Message" rows="4" name="message"></textarea>
@@ -394,6 +394,22 @@ Knowbella Tech equity.</h3>
         <div class="head_text dark wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
             <h5>Interested in Knowbella Tech?</h5>
             <p>Please check all that apply</p>
+        </div>
+        <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="preSale" name="token_preSale" value="preSale">
+            <label class="custom-control-label" for="preSale">Token Pre-Sale</label>
+        </div>
+        <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="investor" name="Investor" value="investor">
+            <label class="custom-control-label" for="investor">Investor</label>
+        </div>
+        <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="employment" name="Employment" value="employment">
+            <label class="custom-control-label" for="employment">Employment</label>
+        </div>
+        <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="platformUser" name="platform_User" value="platformUser">
+            <label class="custom-control-label" for="platformUser">Platform User</label>
         </div>
         <div class="custom-control custom-checkbox">
             <input type="checkbox" class="custom-control-input" id="contactMe" value="contactMe" name="Contact Me?" checked>
@@ -404,7 +420,7 @@ Knowbella Tech equity.</h3>
             <label class="custom-control-label" for="newsletter">Newsletter</label>
         </div>
 				<div class="form-group wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s">
-					<input value="Sign Up" class="cprop_darkbtn" type="submit">
+					<input value="Send" class="cprop_darkbtn" type="submit">
           <!-- <button class="g-recaptcha cprop_darkbtn" data-sitekey="6LfS3kMUAAAAAI8oiEx1okOayI-EUV2LVjrnb8YK" data-callback="onSubmit">
             SUBMIT
           </button> -->
