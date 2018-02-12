@@ -831,6 +831,49 @@ ul.slimmenu li.has-submenu:hover i{
 	padding-top: 20px;
 	display: block;
 }
+
+/*=======================================================
+			Team Section
+========================================================*/
+
+.team-desktop img {
+	border-radius: 50%;
+}
+.team-container p {
+	color: #ffffff;
+	font-size: 12px;
+	padding: 0px;
+}
+.team-container >h2 >span {
+	padding-top: 20px;
+	font-size: 300px;
+}
+#mark > h6 {
+	color: #ddb52e;
+}
+
+
+#laura > h6{
+	color: #ddb52e;
+}
+
+#martin > h6{
+	color: #ddb52e;
+}
+
+#kelly > h6{
+	color: #ddb52e;
+}
+
+#jason > h6{
+	color: #ddb52e;
+}
+
+#mark-desc, #laura-desc, #martin-desc, #kelly-desc, #jason-desc {
+	background-color: #ddb52e;
+	text-align: center;
+}
+
 /*=======================================================
 			Contact Us
 ========================================================*/

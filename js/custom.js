@@ -62,6 +62,29 @@
     wow.init();
 	/* END WOW */
 
+	/* TEAM DESCRIPTION */  
+
+	$("#mark-desc, #laura-desc, #martin-desc, #kelly-desc, #jason-desc").hide();
+
+	$("#mark").click(function() {
+		$("#mark-desc").toggle();
+	});
+
+	$("#laura").click(function() {
+		$("#laura-desc").toggle();
+	});
+
+	$("#martin").click(function() {
+		$("#martin-desc").toggle();
+	});
+
+	$("#kelly").click(function() {
+		$("#kelly-desc").toggle();
+	});
+
+	$("#jason").click(function() {
+		$("#jason-desc").toggle();
+	});
 
 	/* Search Box Filters JS*/
 	$(document).ready(function(){
