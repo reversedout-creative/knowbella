@@ -835,6 +835,11 @@ ul.slimmenu li.has-submenu:hover i{
 /*=======================================================
 			Team Section
 ========================================================*/
+.team-container button:focus{
+	border: 0px;
+	outline: 0px;
+}
+
 .team-photo{
 	margin: auto;
 	border-radius: 50%;
@@ -844,6 +849,7 @@ ul.slimmenu li.has-submenu:hover i{
 	border-radius: 50%;
 	width: 128px;
 	height: 128px;
+	object-fit: cover;
 }
 .team-container p {
 	color: #ffffff;
