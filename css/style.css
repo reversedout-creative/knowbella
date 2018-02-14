@@ -889,14 +889,24 @@ ul.slimmenu li.has-submenu:hover i{
 }
 
 .team-mobile .team-desc{
-	/* display: none; */
 	overflow: hidden;
-	min-height: 0;
-	transition: max-height 0.2s ease-out;
+	max-height: 0;
+	transition: max-height 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 
 .team-mobile button{
-	content: '\002B';
+	padding: 10px 0px;
+	font-size: 16px;
+}
+
+.team-mobile button:after{
+	content: '\25bc';
+	color: #fff;
+}
+
+.team-mobile button.active:after{
+	content: '\25b2';
+	color: #fff;
 }
 
 .team-mobile h6{
