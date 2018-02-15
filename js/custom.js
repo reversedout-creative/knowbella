@@ -96,6 +96,70 @@
 
 })(jQuery);
 
+// open and close desktop team description
+var desktopTeamDesc = $('#desktop-team-desc p').hide();
+var desktopTeamBtn = $('.team-desktop button');
+var desktopChevs = $('.team-desktop i');
+
+$('#mark').click(function(){
+	desktopTeamDesc.slideUp();
+	desktopTeamBtn.removeClass('active');
+	desktopChevs.removeClass('fa-chevron-up');
+	desktopChevs.addClass('fa-chevron-down');
+	$(this).addClass('active');
+	$(this).children().addClass('fa-chevron-up');
+	$(this).children().removeClass('fa-chevron-down');
+	$('#desktop-team-desc .mark-desc').slideDown();
+	return false;
+});
+
+$('#laura').click(function(){
+	desktopTeamDesc.slideUp();
+	desktopTeamBtn.removeClass('active');
+	desktopChevs.removeClass('fa-chevron-up');
+	desktopChevs.addClass('fa-chevron-down');
+	$(this).addClass('active');
+	$(this).children().addClass('fa-chevron-up');
+	$(this).children().removeClass('fa-chevron-down');
+	$('#desktop-team-desc .laura').slideDown();
+	return false;
+});
+
+$('#martin').click(function(){
+	desktopTeamDesc.slideUp();
+	desktopTeamBtn.removeClass('active');
+	desktopChevs.removeClass('fa-chevron-up');
+	desktopChevs.addClass('fa-chevron-down');
+	$(this).addClass('active');
+	$(this).children().addClass('fa-chevron-up');
+	$(this).children().removeClass('fa-chevron-down');
+	$('#desktop-team-desc .martin').slideDown();
+	return false;
+});
+
+$('#kelly').click(function(){
+	desktopTeamDesc.slideUp();
+	desktopTeamBtn.removeClass('active');
+	desktopChevs.removeClass('fa-chevron-up');
+	desktopChevs.addClass('fa-chevron-down');
+	$(this).addClass('active');
+	$(this).children().addClass('fa-chevron-up');
+	$(this).children().removeClass('fa-chevron-down');
+	$('#desktop-team-desc .kelly').slideDown();
+	return false;
+});
+
+$('#jason').click(function(){
+	desktopTeamDesc.slideUp();
+	desktopTeamBtn.removeClass('active');
+	desktopChevs.removeClass('fa-chevron-up');
+	desktopChevs.addClass('fa-chevron-down');
+	$(this).addClass('active');
+	$(this).children().addClass('fa-chevron-up');
+	$(this).children().removeClass('fa-chevron-down');
+	$('#desktop-team-desc .jason').slideDown();
+	return false;
+});
 
 // open and close mobile team description
 var acc = document.getElementsByClassName("team-btn");
@@ -104,8 +168,7 @@ var i;
 for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function() {
     this.classList.toggle("active");
-	var panel = this.previousElementSibling;
-	console.log(panel);
+		var panel = this.previousElementSibling;
     if (panel.style.maxHeight){
       panel.style.maxHeight = null;
     } else {

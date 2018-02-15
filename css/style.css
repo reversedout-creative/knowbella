@@ -860,12 +860,61 @@ ul.slimmenu li.has-submenu:hover i{
 	padding-top: 20px;
 	font-size: 300px;
 }
-#mark > h6 {
-	color: #ddb52e;
-}
 
 .team-desktop{
 	display: none;
+}
+
+.team-desktop p{
+	font-size: 16px;
+}
+
+.team-desktop > .col{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.team-desktop h6{
+	color: #ffca00;
+}
+
+.team-desktop button{
+	padding: 10px;
+	background-color: #555;
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: auto;
+}
+
+.team-desktop button.active{
+	background-color: #ffca00;
+}
+
+.team-desktop button.active i{
+	color: #212121;
+}
+
+.team-desktop button i{
+	color: #333;
+}
+
+.team-desktop > .col.active{
+	background-color: #424242;
+}
+
+#desktop-team-desc{
+	margin-bottom: 40px;
+}
+
+#desktop-team-desc p{
+	font-size: 16px;
 }
 
 .team-mobile{
